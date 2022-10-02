@@ -1,0 +1,39 @@
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #323131;
+    height: 60px;
+    align-items: center;
+    padding: 0 40px;
+}
+
+span {
+    color: azure;
+    font-size: 12px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.footer-item {
+    margin-right: 16px;
+}
+
+.footer-item:last-child {
+    margin-right: 0;
+}
+
+.footer-item-link {
+    color: azure;
+    text-decoration: none;
+}
+
+.footer-item-link:hover {
+    color: oldlace;
+    text-decoration: none;
+}
